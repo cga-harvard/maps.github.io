@@ -1,7 +1,9 @@
 # maps
 Repository for redirects for maps.cga.harvard.edu
 
-1.  Create a file called `CNAME` with the contents
+1.  Create a repository named maps.github.io  The repository name must end in github.io
+
+2.  Create a file called `CNAME` with the contents
 ```
 maps.cga.harvard.edu
 ```
