@@ -1,5 +1,6 @@
 # maps
 Repository for redirects for maps.cga.harvard.edu
+[https://docs.github.com/en/pages/quickstart](https://docs.github.com/en/pages/quickstart)
 
 1.  Create a repository named maps.github.io  The repository name must end in github.io
 
