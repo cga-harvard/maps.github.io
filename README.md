@@ -1,5 +1,5 @@
 # maps
-repository for redirects for maps.cga.harvard.edu
+Repository for redirects for maps.cga.harvard.edu
 
 1.  Create a file called `CNAME` with the contents
 ```
@@ -10,7 +10,7 @@ maps.cga.harvard.edu
 
 3.  Go to your repo’s `Settings > Pages`.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
 
-4.  enable `Enforce HTTPS` once the custom domain is recognized.
+4.  Enable `Enforce HTTPS` once the custom domain is recognized.
 
 5.  Create a directory called `tgaz`
 
