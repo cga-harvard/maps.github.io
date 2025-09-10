@@ -1,5 +1,5 @@
 # maps
-##Repository for redirects for maps.cga.harvard.edu
+## Repository for redirects for maps.cga.harvard.edu
 General directions can be found here:
 [https://docs.github.com/en/pages/quickstart](https://docs.github.com/en/pages/quickstart)
 
