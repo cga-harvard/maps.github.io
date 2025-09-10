@@ -1,23 +1,25 @@
 # maps
-Repository for redirects for maps.cga.harvard.edu
+##Repository for redirects for maps.cga.harvard.edu
+General directions can be found here:
 [https://docs.github.com/en/pages/quickstart](https://docs.github.com/en/pages/quickstart)
 
+This is specific to this repository:
 1.  Create a repository named maps.github.io  The repository name must end in github.io
 
-2.  Create a file called `CNAME` with the contents
+1.  Create a file called `CNAME` with the contents
 ```
 maps.cga.harvard.edu
 ```
 
-2.  Set your DNS CNAME in the HUIT DNS for `maps.cga.harvard.edu` to point to `cga-harvard.github.io.`  This has to be done before step 3.
+1.  Set your DNS CNAME in the HUIT DNS for `maps.cga.harvard.edu` to point to `cga-harvard.github.io.`  This has to be done before step 3.
 
-3.  Go to your repo’s `Settings > Pages`.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
+1.  Go to your repo’s `Settings > Pages`.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
 
-4.  Enable `Enforce HTTPS` once the custom domain is recognized.
+1.  Enable `Enforce HTTPS` once the custom domain is recognized.
 
-5.  Create a directory called `tgaz`
+1.  Create a directory called `tgaz`
 
-6.  Place this file in the directory:
+1.  Place this file in the directory:
 ```
 <!DOCTYPE html>
 <html>
