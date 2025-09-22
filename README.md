@@ -28,7 +28,9 @@ maps.cga.harvard.edu
 </html>
 ```
 
-5.  Go to your repo’s `Settings > Pages`.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
+5.  Go to your repo’s `Settings > Pages`.  Under "Branch" use the first dropdown to choose "main", then click "Save."
+
+7.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
 
 1.  Enable `Enforce HTTPS` once the custom domain is recognized.
 
