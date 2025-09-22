@@ -27,11 +27,11 @@ maps.cga.harvard.edu
 </html>
 ```
 
-5.  Go to your repo’s `Settings > Pages`.  Under "Branch" use the first dropdown to choose "main", then click "Save."
+1.  Go to your repo’s `Settings > Pages`.  Under "Branch" use the first dropdown to choose "main", then click "Save."
 
-3.  Set your DNS CNAME in the HUIT DNS for `maps.cga.harvard.edu` to point to `cga-harvard.github.io`  This has to be done before configuring your custom domain.
+1.  Set your DNS CNAME in the HUIT DNS for `maps.cga.harvard.edu` to point to `cga-harvard.github.io`  This has to be done before configuring your custom domain.
 
-7.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
+1.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
 
 1.  Enable `Enforce HTTPS` once the custom domain is recognized.
 
