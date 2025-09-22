@@ -11,7 +11,6 @@
 maps.cga.harvard.edu
 ```
 
-3.  Set your DNS CNAME in the HUIT DNS for `maps.cga.harvard.edu` to point to `cga-harvard.github.io`  This has to be done before step 5.
 
 1.  Place this file in the top level directory:
 ```
@@ -29,6 +28,8 @@ maps.cga.harvard.edu
 ```
 
 5.  Go to your repo’s `Settings > Pages`.  Under "Branch" use the first dropdown to choose "main", then click "Save."
+
+3.  Set your DNS CNAME in the HUIT DNS for `maps.cga.harvard.edu` to point to `cga-harvard.github.io`  This has to be done before configuring your custom domain.
 
 7.  Under “Custom domain”, enter `maps.cga.harvard.edu` and save.
 
