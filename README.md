@@ -8,11 +8,11 @@
 
 1.  Note that when creating the text record in the DNS, you will need to enter the FQDN (Fully Qualified Domain Name) rather than just the host name.  If the text record is
 ```
-_github-pages-challenge-cga-harvard.foo.cga
+_github-pages-challenge-cga-harvard.maps.cga
 ```
 you must enter
 ```
-_github-pages-challenge-cga-harvard.foo.cga.harvard.edu
+_github-pages-challenge-cga-harvard.maps.cga.harvard.edu
 ```
 in the DNS.
 
