@@ -4,6 +4,18 @@
 [https://docs.github.com/en/pages/quickstart](https://docs.github.com/en/pages/quickstart)
 
 ### Redirecting maps.cga.harvard.edu and maps.cga.harvard.edu/tgaz:
+1.  Follow the directions here to verify the github pages domain for the cga-harvard organization:  https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-organization-site
+
+Note that when creating the text record in the DNS, you will need to enter the FQDN (Fully Qualified Domain Name) rather than just the host name.  If the text record is
+```
+_github-pages-challenge-cga-harvard.foo.cga
+```
+you must enter
+```
+_github-pages-challenge-cga-harvard.foo.cga.harvard.edu
+```
+in the DNS.
+
 1.  Create a repository named maps.github.io  The repository name must end in github.io
 
 1.  Create a file called `CNAME` with the contents
@@ -51,17 +63,3 @@ maps.cga.harvard.edu
   </body>
 </html>
 ```
-
-
-1.  Follow the directions here to verify the github pages domain for the cga-harvard organization:  https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-organization-site
-
-Note that when creating the text record in the DNS, you will need to enter the FQDN (Fully Qualified Domain Name) rather than just the host name.  If the text record is
-```
-_github-pages-challenge-cga-harvard.foo.cga
-```
-you must enter
-```
-_github-pages-challenge-cga-harvard.foo.cga.harvard.edu
-```
-in the DNS.
-
