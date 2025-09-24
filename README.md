@@ -53,8 +53,15 @@ maps.cga.harvard.edu
 ```
 
 
+1.  Follow the directions here to verify the github pages domain for the cga-harvard organization:  https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-organization-site
 
-1.  Follow the directions here to verify the domain for the cga-harvard organization:  https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-organization-site
-
-Note that when creating the text record in the DNS, you will need to enter the FQDN (Fully Qualified Domain Name) rather than just the host name.  If the text record is `_github-pages-challenge-cga-harvard.foo.cga`, you must enter `_github-pages-challenge-cga-harvard.foo.cga.harvard.edu` in the DNS.
+Note that when creating the text record in the DNS, you will need to enter the FQDN (Fully Qualified Domain Name) rather than just the host name.  If the text record is
+```
+_github-pages-challenge-cga-harvard.foo.cga
+```
+you must enter
+```
+_github-pages-challenge-cga-harvard.foo.cga.harvard.edu
+```
+in the DNS.
 
